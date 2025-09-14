@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import AnalysisResults from "./AnalysisResults";
+import AnalysisResults from "./AnalysisResults.js";
 
 export default function Home() {
   const [file, setFile] = useState(null);
